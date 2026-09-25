@@ -1,70 +1,183 @@
 # LeetCode Solutions
 
-**Student name:** BS NAME  
-**Roll number:** [ROLL NUMBER]
+A collection of LeetCode problem solutions implemented in C, organized by topic for learning, practice, and portfolio development.
 
-## Assignment Description
+## Student Information
 
-This repository contains beginner-friendly standard C solutions and explanations for eight LeetCode problems.
+- **Name:** B M Shubhank
+- **Roll Number:** R25EF045
+- **Course:** Computer Science and Engineering
+- **Activity:** Activity 4 - LeetCode Solutions
 
-## Purpose
+## Table of Contents
 
-The purpose of this assignment is to practice common data structures and algorithms, document the reasoning behind each solution, and verify each program with local GCC tests.
+- [About the Repository](#about-the-repository)
+- [Topics Covered](#topics-covered)
+- [Problems Solved](#problems-solved)
+- [Repository Structure](#repository-structure)
+- [Technologies Used](#technologies-used)
+- [Documentation](#documentation)
+- [Testing](#testing)
+- [LeetCode Submissions](#leetcode-submissions)
+- [How to Compile and Run](#how-to-compile-and-run)
 
-## Technologies Used
+## About the Repository
 
-- Standard C
-- GCC
-- Markdown
-- Git and GitHub
+This repository contains solutions to 8 selected LeetCode problems.
 
-## Repository Structure
+Each problem includes:
 
-- [Arrays & Strings](arrays-strings/)
-- [Basic Algorithms](basic-algorithms/)
-- [Stacks](stacks/)
+- C source code
+- A corresponding Markdown documentation file
+- Problem-solving approach
+- Examples
+- Time and space complexity
+- Test cases/local testing information
 
-## Problems
+The solutions are organized into topic-based folders.
 
-### Arrays & Strings
+## Topics Covered
 
-1. [Two Sum](arrays-strings/01-two-sum.md)
-2. [Reverse a String](arrays-strings/02-reverse-a-string.md)
-3. [Valid Anagram](arrays-strings/03-valid-anagram.md)
-4. [Best Time to Buy and Sell Stock](arrays-strings/04-best-time-to-buy-and-sell-stock.md)
-5. [Longest Common Prefix](arrays-strings/05-longest-common-prefix.md)
+### Arrays and Strings
+
+- Two Sum
+- Reverse String
+- Valid Anagram
+- Best Time to Buy and Sell Stock
+- Longest Common Prefix
+
+[Open Arrays and Strings](./arrays-strings/)
 
 ### Basic Algorithms
 
-6. [Binary Search](basic-algorithms/06-binary-search.md)
-7. [Move Zeroes](basic-algorithms/07-move-zeroes.md)
+- Binary Search
+- Move Zeroes
+
+[Open Basic Algorithms](./basic-algorithms/)
 
 ### Stacks
 
-8. [Valid Parentheses](stacks/08-valid-parentheses.md)
+- Valid Parentheses
 
-## GCC Compile and Run Instructions
+[Open Stacks](./stacks/)
 
-From a topic folder, compile a program with:
+### Linked Lists
 
-```bash
-gcc -std=c11 -Wall -Wextra -pedantic filename.c -o filename
-```
+The linked-lists folder is included as part of the repository structure for future linked-list solutions.
 
-Run it on Linux or macOS with:
+[Open Linked Lists](./linked-lists/)
 
-```bash
-./filename
-```
+## Problems Solved
 
-On Windows PowerShell, run the generated executable with:
+| No. | Problem | Topic | Difficulty |
+|-----|---------|-------|------------|
+| 1 | Two Sum | Arrays & Strings | Easy |
+| 2 | Reverse String | Arrays & Strings | Easy |
+| 3 | Valid Anagram | Arrays & Strings | Easy |
+| 4 | Best Time to Buy and Sell Stock | Arrays & Strings | Easy |
+| 5 | Longest Common Prefix | Arrays & Strings | Easy |
+| 6 | Binary Search | Basic Algorithms | Easy |
+| 7 | Move Zeroes | Basic Algorithms | Easy |
+| 8 | Valid Parentheses | Stacks | Easy |
 
-```powershell
-.\filename.exe
-```
+## Repository Structure
 
-Each C file includes a `main()` function with a normal test case and an edge case.
+```text
+leetcode-solutions/
+│
+├── README.md
+├── PROGRESS.md
+│
+├── arrays-strings/
+│   ├── 01-two-sum.c
+│   ├── 01-two-sum.md
+│   ├── 02-reverse-a-string.c
+│   ├── 02-reverse-a-string.md
+│   ├── 03-valid-anagram.c
+│   ├── 03-valid-anagram.md
+│   ├── 04-best-time-to-buy-and-sell-stock.c
+│   ├── 04-best-time-to-buy-and-sell-stock.md
+│   ├── 05-longest-common-prefix.c
+│   └── 05-longest-common-prefix.md
+│
+├── basic-algorithms/
+│   ├── 06-binary-search.c
+│   ├── 06-binary-search.md
+│   ├── 07-move-zeroes.c
+│   └── 07-move-zeroes.md
+│
+├── stacks/
+│   ├── 08-valid-parentheses.c
+│   └── 08-valid-parentheses.md
+│
+└── linked-lists/
+Technologies Used
+C
+GCC
+Markdown
+Git
+GitHub
+LeetCode
+Documentation
 
-## Submission Status
+Each problem has a corresponding .md file containing:
 
-LeetCode submission status is maintained separately from this repository. This repository does not claim acceptance results, submission dates, screenshots, or online submission history.
+Problem description
+Examples
+Approach
+Step-by-step explanation
+Time complexity
+Space complexity
+Edge cases
+Testing information
+Testing
+
+The solutions were checked using local test cases.
+
+The C programs can be compiled using GCC.
+
+Example:
+
+gcc 01-two-sum.c -o two-sum
+./two-sum
+
+The same process can be followed for the other C programs.
+
+LeetCode Submissions
+
+The solutions are also submitted to LeetCode using the required LeetCode function format.
+
+Accepted submission screenshots are maintained as part of the Activity 4 submission requirements.
+
+Note: LeetCode submission status is recorded only after the corresponding solution has been submitted and accepted on LeetCode.
+
+How to Compile and Run
+
+Navigate to the folder containing the required C file.
+
+For example:
+
+cd arrays-strings
+gcc 01-two-sum.c -o two-sum
+./two-sum
+
+For another problem:
+
+gcc 03-valid-anagram.c -o valid-anagram
+./valid-anagram
+
+Purpose
+The purpose of this activity is to practice problem solving using LeetCode, strengthen fundamental programming and algorithmic skills, document the solutions, and maintain them in a GitHub portfolio.
+
+## Accepted Submission Screenshots
+
+Screenshots of the accepted LeetCode submissions are available in the [screenshots](./screenshots/) folder.
+
+- [Two Sum](./screenshots/01-two-sum.png)
+- [Reverse String](./screenshots/02-reverse-string.png)
+- [Valid Anagram](./screenshots/03-valid-anagram.png)
+- [Best Time to Buy and Sell Stock](./screenshots/04-best-time-to-buy-and-sell-stock.png)
+- [Longest Common Prefix](./screenshots/05-longest-common-prefix.png)
+- [Binary Search](./screenshots/06-binary-search.png)
+- [Move Zeroes](./screenshots/07-move-zeroes.png)
+- [Valid Parentheses](./screenshots/08-valid-parentheses.png)
